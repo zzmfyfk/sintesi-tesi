@@ -73,20 +73,6 @@ immagine.save("il_mio_gatto.png")
 - **Orizzontale (1024x768)**: Ideale per paesaggi
 - **Verticale (768x1024)**: Ottima per ritratti a figura intera
 
-### Versioni di Flux
-
-**FLUX.1 Pro** - *Il pittore professionista*
-- La migliore qualità possibile, ma si paga per usarlo
-- Come assumere un artista famoso per un progetto importante
-
-**FLUX.1 Dev** - *Il pittore esperto amatoriale*  
-- Quasi buono come il Pro, gratis per uso personale
-- Come avere un bravo amico artista che lavora gratis
-
-**FLUX.1 Schnell** - *Il disegnatore veloce*
-- Qualità buona, ma super veloce (4 passi invece di 50)
-- Come uno schizzo rapido ma ben fatto
-
 ```python
 # Esempio Schnell per generazione rapida
 pipe_veloce = FluxPipeline.from_pretrained(
